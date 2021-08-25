@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <button onmouseover="demo()" onmouseout="myDemo()">click here</button>
+    <p id="result"></p>
+    
+    <script>
+        //onclick,onmouseover,onmouseout,onfocus,onchange,onsubmit,onkeyup
+        //onmousemove,onload,onkeydown,onkeypress
+
+        function demo(){
+            // document.write(new Date())
+            document.getElementById('result').innerHTML=new Date()
+        }
+        const myDemo=()=>{
+            document.getElementById('result').innerHTML=null
+        }
+      
+    </script>
+    
+</body>
+</html>

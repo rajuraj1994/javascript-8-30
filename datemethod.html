@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date</title>
+</head>
+<body>
+    <script>
+        const d=new Date()
+        document.write(`${d} <br>`)
+        //get fullyear
+        const f=d.getFullYear()
+        document.write(`${f} <br>`)
+        //get month ->getMonth: 0-11
+        const m=d.getMonth()
+        document.write(`${m} <br>`)
+        // get date-> getDate()
+        const date=d.getDate()
+        document.write(`${date} <br>`)
+        //get day->getDay ->0-6
+        const hour=d.getHours() //0-23
+        document.write(`${hour} <br>`)
+        const minute=d.getMinutes()
+        document.write(`${minute} <br>`)
+        //milliseconds 0-999
+        const milli=d.getMilliseconds()
+        document.write(`${milli} <br>`)
+
+        //get full time only
+        const time=d.toLocaleTimeString()
+        document.write(`${time} <br>`)
+        
+
+
+
+       
+    </script>
+    
+</body>
+</html>

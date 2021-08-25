@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number</title>
+</head>
+<body>
+
+    <script>
+        const x=25;
+        const y=x.toString()
+        document.write(typeof(y))
+        document.write('<br>')
+        //toFixed-> returns the string with specified numbers of decimal point
+        const a=15.6474757
+        document.write(a.toFixed(2))
+        document.write('<br>')
+        //toPrecision->returns the number with a specified length
+        document.write(a.toPrecision(2))
+
+        //converting a string to number
+        //methods->Number(),parseInt(),parseFloat()
+        document.write('<br>')
+
+        const b="15"
+        const c=Number(b);
+        document.write(typeof(c))
+        document.write('<br>')
+
+        const d="hello"
+        const e=Number(d)
+        document.write(e)
+        document.write('<br>')
+
+        //parseInt()
+        document.write(parseInt("15.345"))
+        document.write('<br>')
+        document.write(parseInt("17 years"))
+        document.write('<br>')
+
+        //parseFloat()
+        document.write(parseFloat("20.234"))
+
+        //number->decimal,hexadecimal,toExponential
+        //string->search,charAt,concat,charCodeAt
+
+
+
+
+
+
+
+
+        
+    </script>
+    
+</body>
+</html>
